@@ -10,6 +10,11 @@ public class BookTest extends TestCase {
 		assertEquals("unknown author", b1.author);
 	}
 
+	public void testBook1() {
+		Book b1 = new Book("Les Incorruptibles");
+		assertEquals("Les Incorruptibles", b1.title);
+		assertEquals("unknown author", b1.author);
+	}
 	public void  testGetPerson() {
 		Book b2 = new Book("War and Peace");
 		Person p2 = new Person();
