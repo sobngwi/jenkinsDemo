@@ -15,7 +15,7 @@ public class MyutilitiesTest {
 
 	@Test
 	public void saveStringToFile() {
-		assertTrue((2-1) == (3-2));
+		assertTrue(new Integer(2).toString().equals("2"));
 	}
 
 }
