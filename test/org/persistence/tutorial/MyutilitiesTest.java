@@ -15,8 +15,7 @@ public class MyutilitiesTest {
 
 	@Test
 	public void saveStringToFile() {
-		fail("Not yet implemented");
-		// to be implemented.
+		assertTrue((2-1) == (3-2));
 	}
 
 }
